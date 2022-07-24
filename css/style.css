@@ -2,7 +2,7 @@
     opacity: 0;
     position: relative;
     top: -100%;
-    font-size: x-large;
+    font-size: 2ch;
     text-align: center; 
     animation: appear_anim;
     animation-fill-mode: forwards;
@@ -62,7 +62,7 @@ li a:hover {
 hr {
     position: relative;
     top: -100%;
-    width: 80%;
+    width: 30ch;
     height: 10px;
     border: 0 none;
     border-radius: 7px 7px 7px 7px;
