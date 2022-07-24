@@ -1,0 +1,87 @@
+.my_name {
+    opacity: 0;
+    position: relative;
+    top: -100%;
+    font-size: x-large;
+    text-align: center; 
+    animation: appear_anim;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+}
+
+.main_menu {
+    padding: 0;
+    position: relative;
+    top: -100%;
+    list-style-type: none;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    opacity: 0;
+    animation: appear_anim;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 7s;
+}
+.main_menu li {
+    display: inline-block;
+}
+.main_menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 14px 14px 14px 14px;
+    text-decoration: none;
+}
+
+li a:hover {
+    opacity: 0;
+    animation: hov_anim;
+    animation-duration: 0.5s;
+    animation-fill-mode:forwards
+}
+
+@keyframes hov_anim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        background-color: blue;
+        color: white;
+    }
+}
+
+hr {
+    position: relative;
+    top: -100%;
+    width: 80%;
+    height: 10px;
+    border: 0 none;
+    border-radius: 7px 7px 7px 7px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: blue;
+    opacity: 0;
+    animation: appear_anim;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 6s;
+}
+
+@keyframes appear_anim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
