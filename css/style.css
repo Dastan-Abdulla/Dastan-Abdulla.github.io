@@ -16,8 +16,10 @@
     position: relative;
     top: -100%;
     list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-align: center;
-    font-size: larger;
+    font-size: 2ch;
     font-weight: bold;
     opacity: 0;
     animation: appear_no_trans_anim;
@@ -105,40 +107,13 @@ h2 {
     animation-delay: 6s;
 }
 
-h3 {
-    position: relative;
-    top: -100%;
-    text-align: left;
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-left: 10px;
-    font-size: 5ch;
-    opacity: 0;
-    animation: appear_anim;
-    animation-fill-mode: forwards;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-delay: 7s;
-}
-h3 a {
-    color: blue;
-    text-decoration: none;
-    border-bottom: 8px solid white;
-}
-
-h3 a:hover {
-    animation: hov_anim;
-    animation-duration: 1s;
-    animation-fill-mode:forwards
-}
-
 
 @keyframes hov_anim {
     from {
         border-bottom: 8px solid white;
      }
     to {
-        border-bottom: 8px solid black;
+        border-bottom: 8px solid blue;
     }
 }
 
