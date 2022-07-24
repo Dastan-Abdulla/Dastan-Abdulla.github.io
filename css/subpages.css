@@ -1,6 +1,7 @@
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .my_name {
     position: relative;
     top: -100%;
@@ -27,13 +28,11 @@
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 14px 14px 14px 14px;
+    padding-bottom: 25px;
     text-decoration: none;
 }
 
 li a:hover {
-    opacity: 0;
     animation: hov_anim;
     animation-duration: 0.5s;
     animation-fill-mode:forwards
@@ -41,12 +40,10 @@ li a:hover {
 
 @keyframes hov_anim {
     from {
-        opacity: 0;
-    }
+        border-bottom: 8px solid white;
+     }
     to {
-        opacity: 1;
-        background-color: blue;
-        color: white;
+        border-bottom: 8px solid blue;
     }
 }
 
@@ -54,9 +51,8 @@ hr {
     position: relative;
     top: -100%;
     width: 35ch;
-    height: 10px;
+    height: 8px;
     border: 0 none;
-    border-radius: 7px 7px 7px 7px;
     margin-right: auto;
     margin-left: auto;
     background-color: blue;
