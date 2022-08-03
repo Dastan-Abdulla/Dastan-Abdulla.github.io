@@ -2,7 +2,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 :root {
-    --duration: 4s;
+    --duration: 3s;
     --num_iter: 1;
     --theme_color: blue
 }
